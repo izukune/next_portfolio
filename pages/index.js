@@ -9,10 +9,10 @@ const EnhancedSwipeableViews = autoPlay(SwipeableViews);
 export default function Home() {
   return (
     <Layout title="Home">
-      <h2 className="text-3xl text-gray-800 px-8 mt-4 border-b border-gray-600">
+      <h2 className="text-3xl text-gray-800 px-8 mt-8 border-b border-gray-600">
         About
       </h2>
-      <EnhancedSwipeableViews enableMouseEvents interval={12000}>
+      <EnhancedSwipeableViews enableMouseEvents interval={6000}>
         <IzuCard
           title="Izukune Yoshiki"
           image_url="/izuku_image.JPG"
