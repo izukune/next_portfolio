@@ -81,10 +81,11 @@ export default function Works({ filteredPosts }) {
             <p className="font-bold">
               RNNで自然言語処理を行った対話型エンジンです。リプライに対して（そこそこ笑）まともな返事をしてくれます。
             </p>
+            <span className="text-red-500">今は使えません</span>
           </div>
           <div className="w-80">
             <div className="text-blue-800 flex flex-row justify-center items-center mt-2">
-              <p className="mx-4 bg-gray-600 text-white rounded-full py-1 px-2 hover:bg-gray-200 hover:text-blue-800">
+              {/* <p className="mx-4 bg-gray-600 text-white rounded-full py-1 px-2 hover:bg-gray-200 hover:text-blue-800">
                 <a href="https://github.com/izukune/" target="_blank">
                   GitHub
                 </a>
@@ -93,7 +94,7 @@ export default function Works({ filteredPosts }) {
                 <a href="https://twitter.com/iroha14617299" target="_blank">
                   View
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
