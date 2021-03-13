@@ -27,7 +27,7 @@ export default function Blog() {
           </div>
           <div className="mt-4">
             <p className="">
-              このポートフォリオサイトはNext.jsとTailwind.cssを用いて作られています。Next.jsを使うことでISGを導入したwebページを構築することができます。
+              このポートフォリオサイトはNext.jsとTailwind.cssを用いて作られています。Next.jsを使うことでISRを導入したwebページを構築することができます。
             </p>
           </div>
         </div>
