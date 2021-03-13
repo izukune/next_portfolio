@@ -9,7 +9,7 @@ const EnhancedSwipeableViews = autoPlay(SwipeableViews);
 export default function Home() {
   return (
     <Layout title="Home">
-      <h2 className="text-3xl text-gray-800 px-8 border-b border-gray-600">
+      <h2 className="text-3xl text-gray-800 px-8 mt-4 border-b border-gray-600">
         About
       </h2>
       <EnhancedSwipeableViews enableMouseEvents interval={12000}>
@@ -39,7 +39,7 @@ export default function Home() {
       </EnhancedSwipeableViews>
 
       <div className="w-96">
-        <div className="text-blue-700 flex flex-row justify-center items-center mt-4 text-sm lg:text-lg">
+        <div className="text-blue-700 flex flex-row justify-center items-center text-sm lg:text-lg">
           <p className="mx-4 hover:text-gray-500">
             <a href="https://github.com/izukune" target="_blank">
               GitHub
