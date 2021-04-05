@@ -1,6 +1,5 @@
 import Layout from "../components/Layout";
 import IzuCard from "../components/IzuCard";
-import Image from "next/image";
 import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 
@@ -45,7 +44,7 @@ export default function Home() {
           />
 
           <IzuCard
-            title="理科大生時代"
+            title="学部生時代"
             image_url="/soccer.jpg"
             sub_title="物理・サッカー・飲食バイト"
             content="大学で物理を勉強し、サークルでサッカーをして、飲食店の厨房でアルバイトをしていました。"
