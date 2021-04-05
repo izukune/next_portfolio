@@ -41,7 +41,7 @@ export default function Blog() {
 
         <SkillCard
           title="MachineLearning"
-          comment="大学の研究ではTensorFlowとKerasを用いて人工知能モデルを開発してきました。最近は自然言語処理の分野を勉強しているところです。"
+          comment="大学の研究ではTensorFlowとKerasを用いて人工知能モデルを開発してきました。大学院では対話型のエージェントの開発のために自然言語処理を勉強しています。"
         >
           <p className="flex flex-row justify-center items-center flex-wrap">
             {MachineLearning.map((skill, i) => (
@@ -54,7 +54,7 @@ export default function Blog() {
 
         <SkillCard
           title="otherSkill"
-          comment="プログラムのバージョン管理にはGitHubを使っています。仮想開発環境の構築にはDockerを使っています。"
+          comment="プログラムのバージョン管理にはGitHubを使っています。仮想開発環境の構築にはDockerを使っています。基本的なLinuxコマンドの操作は理解しています。"
         >
           <p className="flex flex-row justify-center items-center flex-wrap">
             {otherSkill.map((skill, i) => (

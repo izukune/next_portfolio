@@ -211,6 +211,43 @@ export default function Works({ filteredPosts }) {
             </div>
           </div>
         </div>
+
+        <div className="bg-white bg-opacity-50 text-center shadow-xl pb-4 w-80 rounded mx-8 my-8">
+          <div className="">
+            <Image
+              src="/iolite.png"
+              width={320}
+              height={180}
+              alt="monolith"
+              className="rounded-tr-md rounded-tl-md"
+            />
+          </div>
+          <div className="my-4">
+            <p className="font-bold text-2xl">株式会社iolite</p>
+          </div>
+          <div className="mt-1">
+            <p>
+              <span className="bg-blue-200 p-1 mr-2 rounded-lg">React</span>
+              <span className="bg-blue-200 p-1 mr-2 rounded-lg">
+                materialUI
+              </span>
+            </p>
+          </div>
+          <div className="mt-4 px-8">
+            <p className="font-bold">
+              株式会社iolite様のHPを制作しました。create-react-appを採用しており、素早い開発を行うことができた。
+            </p>
+          </div>
+          <div className="w-80">
+            <div className="text-blue-800 flex flex-row justify-center items-center mt-2">
+              <p className="mx-4 bg-gray-600 text-white rounded-full py-1 px-2 hover:bg-gray-200 hover:text-blue-800">
+                <a href="https://iolite.ltd" target="_blank">
+                  View
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   );
