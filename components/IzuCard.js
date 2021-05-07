@@ -16,8 +16,8 @@ export default function IzuCard({
         <div className="flex justify-center my-4">
           <Image
             src={image_url}
-            width={120}
-            height={120}
+            width={130}
+            height={130}
             alt="image"
             className="rounded-full"
           />

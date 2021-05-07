@@ -28,34 +28,34 @@ export default function Home() {
           slideStyle={styles.slideContainer}
         >
           <IzuCard
-            title="Izukune Yoshiki"
+            title="自己紹介"
             image_url="/izuku_image.JPG"
-            sub_title="東京理科大学 → 立教大学大学院"
-            content="私のポートフォリオにきてくれてありがとうございます。私は学部時代に物理学に深層学習を用いる研究をしていましたが、深層学習の面白さに気が付き人工知能の大学院に進学しました。"
+            sub_title="Izukune Yoshiki"
+            content="私は大学院で人工知能に関する研究をしたり個人でアプリ開発をしています。最近の興味は自然言語処理と音声合成です。"
             slide_message="  Slide Card ▷"
-          />
-
-          <IzuCard
-            title="Hobby"
-            image_url="/fountain.jpg"
-            sub_title="アニメ / ゲーム / 万年筆"
-            content="休日は基本的にアニメをみたりゲームをしています。一番好きなゲームはぷよぷよです。あとは大学の指導教官から万年筆をもらったのをきっかけに万年筆の沼にはまってきています笑"
-            slide_message="◁ Slide Card ▷"
           />
 
           <IzuCard
             title="学部生時代"
             image_url="/soccer.jpg"
             sub_title="素粒子物理学"
-            content="学部時代は物理学を専攻していて、特に素粒子理論の研究室に所属していました。ですので物理学というよりは数学に近いような内容について研究していました。"
+            content="学部時代は物理学を専攻していて、特に素粒子理論の研究室に所属していました。そこでは深層学習を物理学に応用する研究を行ってきました。"
+            slide_message="◁ Slide Card ▷"
+          />
+
+          <IzuCard
+            title="アルバイト"
+            image_url="/fountain.jpg"
+            sub_title="AIベンチャー"
+            content="AIベンチャーでエンジニアのアルバイトをしています。職務内容はデータベース構築からTopicモデルや音に関するAIの開発まで幅広く行っています。"
             slide_message="◁ Slide Card ▷"
           />
 
           <IzuCard
             title="大学院"
             image_url="/chara.jpg"
-            sub_title="AIエージェント / 圏論"
-            content="大学院ではAR上のAIエージェントを用いた観光支援の研究を行なっています。それに加えて圏論とホモトピーのような論理学よりの勉強もしています。"
+            sub_title="AIエージェント / ゲームAI"
+            content="大学院ではゲームAIを用いた研究を行っています。特にキャラクターAIの分野に興味があり、広い領域での研究がメインになっています。"
             slide_message="◁ Slide Card  "
           />
         </EnhancedSwipeableViews>
