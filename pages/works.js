@@ -13,7 +13,7 @@ export default function Works({ filteredPosts }) {
         <div className="bg-white bg-opacity-50 text-center shadow-xl pb-4 w-80 rounded mx-8 my-8">
           <div className="">
             <Image
-              src="/portfolio.png"
+              src="/port.png"
               width={320}
               height={180}
               alt="portfolio"
@@ -40,13 +40,8 @@ export default function Works({ filteredPosts }) {
           <div className="w-80">
             <div className="text-blue-800 flex flex-row justify-center items-center mt-2">
               <p className="mx-4 bg-gray-600 text-white rounded-full py-1 px-2 hover:bg-gray-200 hover:text-blue-800">
-                <a href="https://github.com/izukune/port" target="_blank">
+                <a href="https://github.com/izukune/next_portfolio" target="_blank">
                   GitHub
-                </a>
-              </p>
-              <p className="mx-4 bg-gray-600 text-white rounded-full py-1 px-2 hover:bg-gray-200 hover:text-blue-800">
-                <a href="https://izukune.github.io/port/" target="_blank">
-                  View
                 </a>
               </p>
             </div>
@@ -218,7 +213,7 @@ export default function Works({ filteredPosts }) {
               src="/iolite.png"
               width={320}
               height={180}
-              alt="monolith"
+              alt="iolite"
               className="rounded-tr-md rounded-tl-md"
             />
           </div>
@@ -242,6 +237,43 @@ export default function Works({ filteredPosts }) {
             <div className="text-blue-800 flex flex-row justify-center items-center mt-2">
               <p className="mx-4 bg-gray-600 text-white rounded-full py-1 px-2 hover:bg-gray-200 hover:text-blue-800">
                 <a href="https://iolite.ltd" target="_blank">
+                  View
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white bg-opacity-50 text-center shadow-xl pb-4 w-80 rounded mx-8 my-8">
+          <div className="">
+            <Image
+              src="/gps.png"
+              width={320}
+              height={180}
+              alt="gps_mapping"
+              className="rounded-tr-md rounded-tl-md"
+            />
+          </div>
+          <div className="my-4">
+            <p className="font-bold text-2xl">GPSMapping</p>
+          </div>
+          <div className="mt-1">
+            <p>
+              <span className="bg-blue-200 p-1 mr-2 rounded-lg">Python</span>
+              <span className="bg-blue-200 p-1 mr-2 rounded-lg">
+                flask
+              </span>
+            </p>
+          </div>
+          <div className="mt-4 px-8">
+            <p className="font-bold">
+              GPSを使ってユーザーの位置情報を取得して、位置を地図上にマッピングできるアプリ。出力したが画像はダウンロードできる。
+            </p>
+          </div>
+          <div className="w-80">
+            <div className="text-blue-800 flex flex-row justify-center items-center mt-2">
+              <p className="mx-4 bg-gray-600 text-white rounded-full py-1 px-2 hover:bg-gray-200 hover:text-blue-800">
+                <a href="https://shrouded-peak-95878.herokuapp.com/" target="_blank">
                   View
                 </a>
               </p>

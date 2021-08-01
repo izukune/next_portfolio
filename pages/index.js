@@ -30,8 +30,8 @@ export default function Home() {
           <IzuCard
             title="自己紹介"
             image_url="/izuku_image.JPG"
-            sub_title="Izukune Yoshiki"
-            content="私は大学院で人工知能に関する研究をしたり個人でアプリ開発をしています。最近の興味は自然言語処理と音声合成です。"
+            sub_title="Izukune（いず）"
+            content="大学院修士１年。学部時代は素粒子物理を勉強していましたが、大学院では専攻を変えて人工知能に関する研究しています。"
             slide_message="  Slide Card ▷"
           />
 
@@ -47,7 +47,7 @@ export default function Home() {
             title="アルバイト"
             image_url="/fountain.jpg"
             sub_title="AIベンチャー"
-            content="AIベンチャーでエンジニアのアルバイトをしています。職務内容はデータベース構築からTopicモデルや音に関するAIの開発まで幅広く行っています。"
+            content="AIベンチャーでエンジニアのアルバイトをしています。職務内容はサーバーサイドの開発からAIモデルの開発まで幅広く行っています。"
             slide_message="◁ Slide Card ▷"
           />
 
@@ -55,7 +55,7 @@ export default function Home() {
             title="大学院"
             image_url="/chara.jpg"
             sub_title="AIエージェント / ゲームAI"
-            content="大学院ではゲームAIを用いた研究を行っています。特にキャラクターAIの分野に興味があり、広い領域での研究がメインになっています。"
+            content="大学院ではゲームAIや自然言語処理を用いた研究を行っています。特にキャラクターAIの分野に興味があります。"
             slide_message="◁ Slide Card  "
           />
         </EnhancedSwipeableViews>
